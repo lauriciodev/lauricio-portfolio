@@ -11,7 +11,8 @@ function Sidebar(){
     <>
      <Container 
     width={side ? 200 : 0}
-    visibility={side ? "visible" : "hidden"}>
+    visibility={side ? "visible" : "hidden"}
+    >
      <ContainerSideInfo>
       <SideUp display={side ? "flex" :"none"}>
          <img src={lauricioPhoto} alt="" />
@@ -19,10 +20,11 @@ function Sidebar(){
          <p>FullStack Developer</p>
       </SideUp>
       <SideDown display={side ? "flex" :"none"}>
-        <Link to="/" >Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/technologies">Technologies</Link>
-        <Link to="/contact">Contact</Link>
+        <Link onClick={() => setSide(false)} to="/" >Home</Link>
+        <Link onClick={() => setSide(false)} to="/about">About</Link>
+        <Link onClick={() => setSide(false)} to="/projects">Projects</Link>
+        <Link onClick={() => setSide(false)} to="/technologies">Technologies</Link>
+        <Link onClick={() => setSide(false)} to="/contact">Contact</Link>
       </SideDown>
 
      </ContainerSideInfo>

@@ -7,12 +7,14 @@ import styled from 'styled-components';
   transition: all .4s;
   max-width: ${props => `${props.width}px`};
   visibility:${props => props.visibility};
+  position:fixed;
+
 `
 
 
 export const Button = styled.button`
 background-color: #4444;
-position: absolute;
+position: fixed;
 top: 10px;
 left:${props => `${props.posi}px`};
 color: white;
