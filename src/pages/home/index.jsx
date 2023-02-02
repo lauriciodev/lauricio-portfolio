@@ -1,5 +1,5 @@
 import ButtonCv from '../../components/buttonCv';
-import { Container, HeroContainer } from './style';
+import { Container, HeroContainer } from './styles';
 
 
 function Home(){

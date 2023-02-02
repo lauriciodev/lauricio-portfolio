@@ -1,7 +1,11 @@
+import TextAbout from '../../components/textabout';
+import { Container } from './styles';
 
 function About(){
 return(
-<h1>about</h1>
+<Container>
+<TextAbout/>
+</Container>
 )}
 
 export default About;
