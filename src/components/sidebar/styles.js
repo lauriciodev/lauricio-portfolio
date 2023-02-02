@@ -9,6 +9,7 @@ import styled from 'styled-components';
   visibility:${props => props.visibility};
   position:fixed;
   border-right:1px solid #3ccc;
+  z-index:100;
 
 `
 
@@ -23,6 +24,8 @@ padding:5px;
 transition: all .4s;
 transform: rotate(${props => `${props.rot}deg`});
 border:none;
+z-index:1010;
+
 
 & > svg{
   font-size:1.2rem;
