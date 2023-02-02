@@ -18,10 +18,11 @@ gap: 30px;
 
 export const HeroContainer = styled.div`
 text-align: center;
- 
+padding:0 30px ;
 
 border-left: 1px solid #3ccc;
 border-right: 1px solid #3ccc;
+
 & > h1{
   color: #3ccc;
   font-size: 3rem;

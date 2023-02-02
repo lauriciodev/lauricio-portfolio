@@ -24,7 +24,7 @@ gap: 3px;
 
 
 & > img{
-  max-width: 140px;
+  max-width: 120px;
   filter: grayscale();
   border: 1px solid #3ccc;
   transition:all .4s;
