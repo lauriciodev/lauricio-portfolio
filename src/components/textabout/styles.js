@@ -7,7 +7,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
-margin: 30px 10px;
+margin: 50px 10px;
 
 
 `
@@ -29,6 +29,7 @@ gap: 20px;
 export const ContainerImg = styled.div`
 display: flex;
 gap: 10px;
+
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
