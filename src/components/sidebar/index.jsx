@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import lauricioPhoto from "../../assets/lauricio.png"
 
 function Sidebar(){
-  const [side, setSide] = useState(true);
+  const [side, setSide] = useState(false);
   
   return(
     <>

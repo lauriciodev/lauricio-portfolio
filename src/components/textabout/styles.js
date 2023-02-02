@@ -15,8 +15,8 @@ text-align: center;
 export const ContainerHistory = styled.div`
 width: 100%;
 max-width: 700px;
-border: 1px solid #04D939;
-color: #04D939;
+border: 1px solid #3ccc;
+color: #3ccc;
 padding: 10px;
 display: flex;
 flex-direction: column;
@@ -36,7 +36,7 @@ justify-content: center;
 
 & > img{
   max-width: 300px;
-  border: 1px solid #04D939;
+  border: 1px solid #3ccc;
 
 }`
 

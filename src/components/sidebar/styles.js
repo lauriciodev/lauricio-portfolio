@@ -8,7 +8,7 @@ import styled from 'styled-components';
   max-width: ${props => `${props.width}px`};
   visibility:${props => props.visibility};
   position:fixed;
-  border-right:1px solid #04D939;
+  border-right:1px solid #3ccc;
 
 `
 
@@ -26,7 +26,7 @@ border:none;
 
 & > svg{
   font-size:1.2rem;
-  color:#04D939;
+  color:#3ccc;
 }
 `
 
@@ -46,13 +46,13 @@ padding: 30px;
 display: flex;
 flex-direction: column;
 gap: 10px;
-color: #04D939;
+color: #3ccc;
 text-align: left;
 display: ${props => props.display};
 
 & > img{
   width: 100%;
-  border: 1px solid #04D939;
+  border: 1px solid #3ccc;
 }
 `
 export  const SideDown = styled.div`
@@ -71,7 +71,7 @@ display:${props => props.display};
 & > a{
   font-size: 1.1rem;
   text-decoration: none;
-  color: #04D939;
+  color: #3ccc;
   font-weight: 600;
   transition: all .4s;
 }
@@ -80,7 +80,7 @@ display:${props => props.display};
 & > a::after{
   content: "";
   position: absolute;
-  background-color:#04D939;
+  background-color:#3ccc;
   left: 10px;
   transition: all .4s;
 
