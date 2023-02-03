@@ -4,6 +4,7 @@ import About from './pages/about';
 import Home from './pages/home';
 import "./global.css"
 import Technologies from './components/techonologies';
+import Projects from './components/projects';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/technologies" element={<Technologies/>} />
+        <Route path="/projects" element={<Projects/>} />
       </Routes>
     </div>
     
